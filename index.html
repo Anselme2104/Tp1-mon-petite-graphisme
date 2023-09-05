@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon petit graphisme</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <!-- ceci est le corps du site -->
 <body>
     <!-- Debut de code d'Entête de page -->
     <header> 
-        <div> 
+        <div class="Entête"> 
+            <div>
+                <!-- ceci est le logo du site -->
+                <img class="logo-position" src="image/logo_long.png"  alt="logo du site"></a>
+                <!-- ceci est le menu de navigation -->
+            </div>
             <nav>
-                <ul>
-                    <!-- ceci est le logo du site -->
-                    <a href="index.html" class="logo-lien"><img src="image/logo_long.png" class="logo-position" alt="logo du site"></a>
-                    <!-- ceci est le menu de navigation -->
-                    <li>
-                        <a href="#">Acueill</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+                <li>
+                    <a href="#">Acueill</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </nav>
         </div>
     </header>
@@ -32,58 +32,80 @@
 
     <!-- DEBUT DE CODE DU CONTENU MAIN -->
     <main>
-        <!--(DEBUT) Premiers section :la baniers de bienvuene du site  -->
-        <section>
-            <!--baniers de bienvenue-->
+        <!--(DEBUT) Premiers section :la banniers de bienvuene du site  -->
+        <section class="banniere"> 
+            <!--banniers de bienvenue-->
             <div>
-                <img src="image/logo_long.png" alt="bouton de la baniers">
-                <h4>Agence de graphisme</h4>
+                <div class="centreur">
+                    <img class="bouton" src="image/logo_long.png" alt="bouton de la banniers">
+                </div>
+                <div>
+                    <h4 class="indice" >Agence de graphisme</h4>   
+                </div>
+                
             </div>
         </section>
-        <!--  (FIN) Premiers section :la baniers de bienvuene du site  -->
+        <!--  (FIN) Premiers section :la banniers de bienvuene du site  -->
 
         <!-- (DEBUT) Deuxiement section : les options de choix du site -->
-        <section>
+        <section class="taille">
             <div>
                 <!-- (Debut) premier sous partie--> 
-                <span>
+                <div class="attractifs">
                     <p>
                         Mon petit graphisme est une Agence
                         de graphisme qui aide les entreprises
-                        à créer des visuels attractifs.
+                        à <br> créer des visuels attractifs.
                     </p>
-                </span>
+                </div>
                 <!-- (fin) de premier sous partie-->
 
                 <!-- (Début) deuxièment sous partie-->
-                <div>
+                <div class="taille">
                     <!-- premier case (GRAPHIME)-->
-                    <div>
-                        <img src="image/graphic-design.png" alt="loge du grahisme">
-                        <h4>GRAPHIME</h4>
-                        <P>Que vous ayez besoin de graphisme pour un site
-                             web, des cartes de viste ou des affiches, 
-                             nous réalisons des visuels dont vous serez fiers.
-                        </P>
+                    <div class="grahisme">
+                        <div class="ima1">
+                            <img src="image/graphic-design.png" alt="loge du grahisme">
+                        </div>
+                        <div class="tex1">
+                            <p>GRAPHIME</p>
+                        </div>
+                        <div class="tex2">
+                            <P>Que vous ayez besoin de graphisme pour un site
+                                web, des cartes de viste ou des affiches, 
+                                nous réalisons des visuels dont vous serez fiers.</P>
+                        </div>
                     </div>
                     <!-- fin de premier case (GRAPHIME) -->
                     <!-- deuxième case (STRATEGIE)-->
-                    <div>
-                        <img src="image/strategie.png" alt="loge de strategie">
-                        <h4>STRATEGIE</h4>
-                        <P>Plutot que suggérer des grahismes à la mode,
-                            nous prenons le temps de comprendre vos objectifs 
-                            et nous nous adaptons à vos besoins.
-                        </P>
+                    <div class="strategie">
+                        <div class="ima2">
+                            <img src="image/strategie.png" alt="loge de strategie">
+                        </div>
+                        <div class="tex11">
+                            <p>STRATEGIE</p>
+                        </div>
+                        <div class="tex22">
+                            <P>Plutot que suggérer des grahismes à la mode,
+                                nous prenons le temps de comprendre vos objectifs 
+                                et nous nous adaptons à vos besoins.</P>
+                        </div>
                     </div>
                     <!-- fin de deuxième case (STRATEGIE) -->
                     <!-- troisième case (ILLUSTRATIONS)-->
-                    <div>
-                        <img src="image/illustrations.png" alt="loge de lillustrations'">
-                        <h4>ILLUSTRATIONS</h4>
-                        <P>Nos grahistes vous proposerons des illustrations
-                            100% originales.
-                        </P>
+                    <div class="illustrations">
+
+                        <div class="ima3">
+                            <img src="image/illustrations.png" alt="loge de lillustrations'">
+                        </div>
+                        <div class="tex111">
+                            <p>ILLUSTRATIONS</p>
+                        </div>
+                        <div class="tex222">
+                            <P>Nos grahistes vous proposerons des illustrations
+                                100% originales.</P>
+                        </div>
+                    
                     </div>
                     <!-- fin de troisième case (ILLUSTRATIONS) -->
                 </div>
@@ -91,20 +113,20 @@
 
                 <!-- (Début) de la troisième sous partie-->
 
-                <div>
+                <div class="taille2">
                     <!-- (Début) Premier pagraphe-->
-                    <div>
-                        <p>
-                            "Mon petit grahisme est une excellente agence de grahisme.
-                            Les graphistes sont à l'écoute des besoins et m'ont permis 
+                    <div class="restaurant">
+                        <p class="tex3">
+                            "Mon petit grahisme est une excellente agence de grahisme. <br>
+                             Les graphistes sont à l'écoute des besoins et m'ont permis 
                             de renouveler complètement la carte de mon restaurant."
                         </p>
                     </div>
                     <!-- (fin) Premier pagraphe-->
 
                     <!--(Début) Deuxième pagraphe-->
-                    <div>
-                        <h4>Amandine, restauratrice</h4>
+                    <div class="restaurant">
+                        <p class="Amandine">Amandine, restauratrice</p>
                     </div>
                    <!--(fin) Deuxième pagraphe-->
                 </div>
@@ -119,7 +141,7 @@
     <!--DEBUT DE CODE DU FOOTER -->
     <footer>
         <!-- (Début) de la premiere section footer : le paragraphes-->
-        <section>
+        <section class="Paris">
             <h4>
                 Mon petit grahisme - Agence de grahisme basée à Paris
             </h4>
@@ -127,27 +149,39 @@
         <!-- (Fin) de la premiere section footer : le paragraphes-->
 
         <!-- (Début) de la deuxième section footer : les icons sociales-->
-        <section>
-            <div>
-                <a href="https://www.twitter.com"><img src="" alt="logo de twitter"></a>
-                <a href="https://www.facebook.com"><img src="" alt="logo de facebook"></a>
-                <a href="https://www.instagram.com"><img src="" alt="logo de instagram"></a>
+        <section >
+            <div class="TFI">
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+             
+                </div>
+                
+                
+             
             </div>
         </section>
         <!-- (Fin) de la deuxième section footer : les icons sociales-->
 
         <!-- (Début) de la troisième section footer : les réferences-->
-        <section>
+        <section class="APC">
             <!--(Début) de sous-section : Accès rapide -->
             <div>
                 <div>
                     <h4>Accès rapides</h4>
                 </div>
-                <div>
+                <div class="me">
                     <ul>
                         <li>
                             <a href="#">Accueil</a>
-                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>  
                         </li>
                     </ul>
                 </div>
@@ -159,7 +193,7 @@
                 <div>
                     <h4>A propos</h4>
                 </div>
-                <div>
+                <div class="do">
                     <ul>
                         <li>
                             <a href="#">Données personnelles</a>
@@ -176,14 +210,21 @@
             <!--(fin) de sous-section : A propos -->
 
             <!--(Début) de sous-section : Coordonnées -->
-            <div>
-                <h4>Coordonnées</h4>
-            </div>
-            <div>
-                <p>10 Quai de Charente</p>
-                <p>75019 Paris</p>
-                <p>01 23 45 67 89</p>
-            </div>
+           <div>
+                <div>
+                    <h4>Coordonnées</h4>
+                </div>
+                <div class="qu">
+                    <ul>
+                            <p>10 Quai de Charente</p>
+                        
+                            <p>75019 Paris</p>
+                       
+                            <p> 01 23 45 67 89</p>
+                    </ul>
+                   
+                </div>
+           </div>
             <!--(fin) de sous-section : Coordonnées -->
             
         </section>

@@ -1,0 +1,203 @@
+
+*{
+    margin: 0px; 
+}
+
+body{
+    margin: 10px 90px;
+    font-family:Arial, sans-serif;
+
+}
+/* (Début) du code css lier à l'ENTETE */
+header li{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+header nav{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+} 
+.logo-position{
+    height: 100px;
+
+}
+.Entête{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ nav a{ 
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 0px 5px 0px 20px;
+    font-size: larger;
+
+}
+header a:hover{
+    color: blue;
+}
+/* (Fin) du code css lier à l'ENTETE */
+
+/* (Début) du code css Main*/
+/* (DEBUT) Premiers section :la baniers de bienvuene du site */
+.banniere{
+    padding: 170px 170px 170px 170px;
+    background:url(image/backgroung_image.jpg);
+    background-size:cover;
+    height: 140px;
+}
+.bouton{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding:center;
+    width: 205px;  
+    height: 60px;
+    
+}
+.centreur{ /*pour centrer le bouton */
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+   
+}
+.indice{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    font-size:xx-large; 
+    font-weight:100;
+    font-family:Arial, sans-serif;
+    margin: 10px 0px 0px 0px;
+}
+/* (fin) Premiers section :la baniers de bienvuene du site */
+
+/* (DEBUT) Deuxiement section : les options de choix du site */
+/*(Debut) premier sous partie */
+.attractifs{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 30px 0px;
+    font-size: xx-large;
+    font-size: 24px;
+    color: rgb(93, 84, 84);
+    text-align: center;
+}
+/*<!-- (fin) de premier sous partie-->*/
+/*<!-- (Début) deuxièment sous partie-->*/
+ .taille{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 100px 60px 100px;
+    justify-content: center;
+ }
+
+ .grahisme, .strategie, .illustrations{
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
+   }
+
+   .tex1, .tex11, .tex111{
+    margin: 20px 0px 0px 0px;
+    font-size: large;
+    font-size: 22px;
+    font-weight: thin ;
+    
+   }
+   .tex2, .tex22, .tex222{
+    font-size: 13px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 20px;
+   }
+.taille2{
+    display: flex;
+    flex-direction: column;
+    margin:60px 130px 60px 130px ;
+    justify-content: center;
+    padding: 0px 20px 0px 20x;
+}
+.tex3{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(93, 84, 84);
+    
+    
+}
+.restaurant{
+    margin: 0px 50px 20px 50px;
+    text-align: center;
+}
+.Amandine{
+    color: rgb(141, 135, 135);  
+    font-size: 16px;
+    font-weight: 100;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(58, 8, 110, 0.987);
+    color:white
+
+} 
+footer a{
+    color: white;
+   /* margin:0px 70px 0px 70px ;
+    padding: 0px 70px 0px 70px;*/
+}
+.Paris{
+    text-align: center;
+    margin-top: 30px;
+    font-size: small;
+}
+.TFI{
+    text-align: center;
+    margin:10px 0px 10px 0px ;
+    padding:10px 20px 10px 20px;
+    color: #9d9d9e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.APC{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 30px 0px 30px;
+
+}
+.APC h4{
+    text-align: left;
+    color:rgb(169, 166, 166);
+    margin:0px 20px 10px 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-size:small;
+}
+.APC a,.qu{
+    display: flex;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.APC .me, .do, .qu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px 0px 20px;
+    padding:0px 20px 0px 20px ;
+    text-align: left;
+}
